@@ -7,6 +7,7 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
 // ! Pages
 import HomePage from './pages/HomePage';
+import NotFoundPage from './pages/404Page';
 
 
 const App: React.FC = () => {
@@ -16,7 +17,7 @@ const App: React.FC = () => {
       {/* <Navbar/> */}
       <Routes>
         <Route path='/' element={<HomePage />}></Route>
-        {/* <Route path='/*' element={<NotFoundPage />} /> */}
+        <Route path='/*' element={<NotFoundPage />} />
       </Routes>
     </Router>
     </>
