@@ -3,9 +3,11 @@ import React from "react";
 const HomePage: React.FC = () => {
   return (
     <>
-      <p className='text-5xl'>Hello, I'm <strong className="text-[#ff0043]">Ernst</strong></p>
-      <p className='text-9xl'>FULLSTACK</p>
-      <p className='text-9xl'>DEVELOPER</p>
+      <div className="fixed top-1/4 left-1/4 right-1/4">
+        <p className='text-5xl relative left-0'>Hello, I'm <strong className="text-[#ff0043]">Ernst</strong></p>
+        <p className='text-9xl relative'>FULL STACK</p>
+        <p className='text-9xl relative'>DEVELOPER</p>
+      </div>
     </>
   );
 };
