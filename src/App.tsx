@@ -13,9 +13,9 @@ const App: React.FC = () => {
   return (
     <>
     <Router>
-    {/* <Navbar/> */}
+      {/* <Navbar/> */}
       <Routes>
-        <Route path='vite-gh-pages' element={<HomePage />}></Route>
+        <Route path='/' element={<HomePage />}></Route>
         {/* <Route path='/*' element={<NotFoundPage />} /> */}
       </Routes>
     </Router>
